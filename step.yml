@@ -69,8 +69,7 @@ inputs:
       title: "Pull Branch"
       summary: Must be valid branch in remote repo named origin
       description: |
-        Name of branch that will be pulled into the working directory
-      is_expand: true
+        Branch that will be pulled into the working directory
       is_required: true
 
 outputs:
