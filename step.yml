@@ -66,7 +66,7 @@ toolkit:
 inputs:
   - pull_branch_input: Default Value - you can leave this empty if you want to
     opts:
-      title: "Example Step Input"
+      title: "Pull Branch"
       summary: Must be valid branch in remote repo named origin
       description: |
         Name of branch that will be pulled into the working directory
