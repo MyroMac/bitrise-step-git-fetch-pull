@@ -1,7 +1,12 @@
 #!/bin/bash
 set -ex
 
-echo "This is the value specified for the input 'example_step_input': ${example_step_input}"
+echo "Pulling branch... ${pull_branch_input}"
+
+git fetch origin
+git pull origin ${pull_branch_input}
+
+echo "Pulled branch: ${pull_branch_input}"
 
 #
 # --- Export Environment Variables for other Steps:
