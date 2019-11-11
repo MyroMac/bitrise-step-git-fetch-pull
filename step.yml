@@ -67,17 +67,7 @@ inputs:
   - pull_branch_input: Default Value - you can leave this empty if you want to
     opts:
       title: "Pull Branch"
-      summary: Must be valid branch in remote repo named origin
+      summary: Must be valid branch in origin repo
       description: |
         Branch that will be pulled into the working directory
       is_required: true
-
-outputs:
-  - EXAMPLE_STEP_OUTPUT:
-    opts:
-      title: "Example Step Output"
-      summary: Summary. No more than 2-3 sentences.
-      description: |
-        Description of this output.
-
-        Can be Markdown formatted text.
