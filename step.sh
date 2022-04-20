@@ -4,7 +4,7 @@ set -ex
 echo "Pulling branch... ${pull_branch_input}"
 
 git fetch origin
-git pull origin ${pull_branch_input}
+git merge origin/${pull_branch_input}
 
 echo "Pulled branch: ${pull_branch_input}"
 
